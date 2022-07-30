@@ -16,10 +16,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
-            android:name=".activities.Teacher.TeacherFragment"
+            android:name=".activities.teacher.attendence.TeacherFragment"
             android:exported="true"/>
         <activity
-            android:name=".activities.HOD.HodActivity"
+            android:name=".activities.hod.HodActivity"
             android:exported="false" />
         <activity
             android:name=".activities.LoginActivity"

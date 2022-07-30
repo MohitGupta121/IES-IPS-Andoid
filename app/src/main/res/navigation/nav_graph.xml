@@ -22,8 +22,8 @@
         tools:layout="@layout/fragment_class_attendance" />
     <fragment
         android:id="@+id/faculty_attendance_panel"
-        android:name="cmsr.ipsacademy.net.activities.Teacher.AttendancePanelFragment"
+        android:name="cmsr.ipsacademy.net.activities.teacher.attendence.FacultyAssignedSubjectsFragment"
         android:label="Attendance Panel"
-        tools:layout="@layout/fragment_attendance_panel" />
+        tools:layout="@layout/fragment_faculty_assigned_subjects" />
 
 </navigation>

@@ -65,6 +65,7 @@
         tools:ignore="RtlCompat">
 
         <TextView
+            android:id="@+id/take_attendance_particular_subject_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Take Attendance "
@@ -87,15 +88,6 @@
             android:textStyle="bold"
             android:text=" Modify "
             android:background="#E61010"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:text=" Lecture Plan "
-            android:background="#46b8da"/>
 
     </LinearLayout>
 

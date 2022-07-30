@@ -1,6 +1,6 @@
-package cmsr.ipsacademy.net.Model
+package cmsr.ipsacademy.net.activities.teacher.attendence.models.subjects
 
-data class FacultySubjectDetails (
+data class FacultySubjectDetailsModelItem(
     val academic_session_id: String,
     val batch: String,
     val batch_id: String,

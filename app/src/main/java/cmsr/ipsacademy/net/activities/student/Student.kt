@@ -13,7 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import cmsr.ipsacademy.net.R
 import cmsr.ipsacademy.net.helpers.SharedPreferencesHelper
 import cmsr.ipsacademy.net.activities.models.student.StudentInfoModel
-import cmsr.ipsacademy.net.api.apiset
+import cmsr.ipsacademy.net.api.ApiSet
 import cmsr.ipsacademy.net.api.controller
 import com.google.android.material.navigation.NavigationView
 import retrofit2.Call
@@ -60,7 +60,7 @@ class Student : AppCompatActivity() {
 
     private fun getStudentDetails() {
         val computer_code = "52684"
-        val userApi = controller.getInstance().create(apiset::class.java)
+        val userApi = controller.getInstance().create(ApiSet::class.java)
 
 
         userApi.getStudentDetails(computer_code)

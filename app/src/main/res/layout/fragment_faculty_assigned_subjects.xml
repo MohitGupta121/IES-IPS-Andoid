@@ -11,7 +11,7 @@
         android:id="@+id/faculty_attendance_panel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activities.Teacher.AttendancePanelFragment">
+        tools:context=".activities.teacher.attendence.FacultyAssignedSubjectsFragment">
 
         <!-- Table View-->
         <HorizontalScrollView

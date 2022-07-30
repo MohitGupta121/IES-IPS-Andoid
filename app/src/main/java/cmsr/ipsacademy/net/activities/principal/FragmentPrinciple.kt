@@ -1,4 +1,4 @@
-package cmsr.ipsacademy.net.activities.Principal
+package cmsr.ipsacademy.net.activities.principal
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -45,7 +45,7 @@ Android application to manage student, teachers, HOD in college.
 
 # Package Structure
     
-    dev.hellosagar.assigmenthub    # Root Package
+    cmsr.ipsacademy.net    # Root Package
     .
     ├── data                # For data handling.
     │   └── repository      # Single source of data.   
